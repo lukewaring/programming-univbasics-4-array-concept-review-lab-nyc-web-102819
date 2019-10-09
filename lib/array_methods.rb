@@ -3,8 +3,6 @@ def find_element_index(array, value_to_find)
   i == value_to_find
   end
 
-array.index(i) == value_to_find
-
 # Alternative approach:
 #  counter = 0 
 #  while counter < array.length do
@@ -13,8 +11,7 @@ array.index(i) == value_to_find
 #    end
 #    counter += 1 
 #  end
-#    return nil
-
+# return 
 end
 
 def find_max_value(array)
