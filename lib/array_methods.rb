@@ -1,7 +1,7 @@
 def find_element_index(array, value_to_find)
-  array.index  |i|
+  array.index { |i|
     i == value_to_find
-  end
+  }
 
 # Alternative approach:
 #  counter = 0 
@@ -34,13 +34,3 @@ def find_min_value(array)
   }
   return min 
 end
-
-
-#array.min/max
-
-#scale = [2,3,4,5]
-#scale_2 = [6,5,4,3]
-
-#array.length.times do |index|
-#  puts array[index]
-#end
