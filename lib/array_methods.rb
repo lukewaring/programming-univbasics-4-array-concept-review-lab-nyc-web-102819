@@ -3,10 +3,11 @@ def find_element_index(array, value_to_find)
   #   i == value_to_find
   # end
   counter = 0 
-  while counter < array.length do 
+  while counter < array.length do
     if array[counter] == value_to_find
       return counter
-    end
+    end  
+  end
     counter += 1 
   end
     return nil
@@ -16,10 +17,10 @@ def find_max_value(array)
   array.max
 end
 
-max = 0 
-array.length.times do |index|
-  if array[index] > max
-    max = array[index]
+#max = 0 
+#array.length.times do |index|
+#  if array[index] > max
+#    max = array[index]
 
 def find_min_value(array)
   array.min
