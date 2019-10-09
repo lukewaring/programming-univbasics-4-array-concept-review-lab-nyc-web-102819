@@ -1,15 +1,15 @@
 def find_element_index(array, value_to_find)
-  # array.index do |i| 
-  #   i == value_to_find
-  # end
-  counter = 0 
-  while counter < array.length do
-    if array[counter] == value_to_find
-      return counter
-    end
-    counter += 1 
+  array.index do |i|
+  i == value_to_find
   end
-    return nil
+#  counter = 0 
+#  while counter < array.length do
+#    if array[counter] == value_to_find
+#      return counter
+#    end
+#    counter += 1 
+#  end
+#    return nil
 end
 
 def find_max_value(array)
