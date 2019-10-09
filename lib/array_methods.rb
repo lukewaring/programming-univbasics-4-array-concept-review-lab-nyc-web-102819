@@ -26,7 +26,7 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  min = 5s
+  min = 5
   array.length.times { |index|
     if array[index] < min
       min = array[index]
